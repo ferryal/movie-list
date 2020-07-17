@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.nav-movie {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.m-left-15 {
+  padding-left: 15px;
+}
+
+.detail-container {
+  padding-right: 15px;
+}
+
+#container {
+  margin-top: 15px;
+}
+
+.mp-top-10 {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.mp-bottom-10 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.search-movie {
+  height: 38px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+

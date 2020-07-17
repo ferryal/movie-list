@@ -7,9 +7,10 @@ const initialState = {
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case MYMOVIE.FETCH_SUCCESS:
+      localStorage.setItem('myMovie', [...state.myMovie, action.payload]);
       return {
         ...state,
-        MYMOVIE: [...state.myMovie, action.payload]
+        myMovie: [...state.myMovie, action.payload]
       };
 		case MYMOVIE.REMOVE_MOVIE:
 			return {
